@@ -1,0 +1,10 @@
+CREATE TABLE `users` (
+    `id` INT(11) UNSIGNED ZEROFILL PRIMARY KEY AUTO_INCREMENT,
+    `username` VARCHAR(50) NOT NULL,
+    `password` VARCHAR(60) NOT NULL,
+    `email` VARCHAR(80) NOT NULL,
+    `created` DATETIME NOT NULL
+)
+CHARACTER SET = UTF8,
+COLLATE utf8_general_ci,
+ENGINE = InnoDB;

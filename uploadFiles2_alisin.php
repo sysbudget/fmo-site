@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>UP System Budget Office</title>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+<table class="Global" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td height="118" colspan="3">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+		<td width="25"><img src="topleftround.gif" width="25" height="25" alt="topleftround (1K)"></td>
+		<td bgcolor="#def2fa">&nbsp;</td>
+		<td width="25"><img src="toprightround.gif" width="25" height="25" alt="toprightround (1K)"></td>
+		</tr>
+		</table>
+
+<!-- ============ Header section ============== -->
+		<table border="0" cellspacing="0" class="Header">
+		<tr>
+
+<!-- ============ Logo ============== -->
+		<td style="background: url('add-logo_4a.gif') no-repeat;" width="100%" align="left"><div style="display: table; margin-left: 20px; margin-top: 20px;"></div></td>
+		<td></td>
+		</tr>
+		</table>
+
+<div style="height: 1px; background: #284151;"><img src="space1x1.gif" width="1" height="1" alt="spacer"></div>
+
+<!-- ============ Navbar Menu ============== -->
+		<table class="NavBar" cellpadding="0" cellspacing="0" border="0">
+			<tr><td style="color: gray;">
+				<table class="NavBarMenu" cellspacing="0" border="0">
+				<tr>
+				<td><a href="index.html">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="overview.html">Overview</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="objectives.html">Objectives</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="collection_form.html">Data Collection Forms</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="collection_procedure.html">Data Collection Procedure</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="data_submission.html">Data Submission</a> &nbsp;&nbsp; | &nbsp;&nbsp;</td>
+				<td><a href="uploadFiles.php">Upload Files</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="statistics.html">Statistics</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+				<td><a href="contact.html">Contact Us</a></td>
+				</tr>
+				</table>
+			</td>
+			</tr>
+			</table>
+
+	</td>
+	</tr>
+
+<!-- ============ COLUMNS SECTION ============== -->
+
+<!-- ============ Left Column ============== -->
+	<tr>
+	<td class="Left" width="160" align="center">
+
+<!-- ============ Photo ============== -->
+	<table class="BoxStyle" cellspacing="0" style="width: 140px;">
+		<tr><td><img src="Pilipinas Kong Mahal-small.jpg" width="200" height="200"></td>
+		</tr>
+	</table>
+	
+	</td>
+
+<!-- ============ Content Column (Middle) ============== -->
+	<td class="Content Padded">
+
+<!-- ============ Page Heading ============== -->
+		<h1 class="HeadingStyle">Upload Files</h1>
+
+<!-- ============ Begin Content ============== -->
+		<form name="form1" enctype="multipart/form-data" method="post" action="processFiles2.php">
+			<p>
+			<?php
+				// start of dynamic form
+				$uploadNeed = $_POST['uploadNeed'];
+				
+				if ($uploadNeed == 0)
+				{
+						echo "You have not specified number of files to upload.";
+						echo "<br><br><br>";
+				}
+				else
+				{
+
+					echo "Only files in doc, docx, xls, xlsx, rtf, or pdf format will be accepted.";
+
+					for($x=0;$x<$uploadNeed;$x++){
+			?>
+					<p>
+					<input name="uploadFile<?php echo $x;?>" type="file" id="uploadFile<?php echo $x;?>">
+					</p>
+			<?php
+					// end of for loop
+					}
+			?>
+					<br>
+					<p><input name="uploadNeed" type="hidden" value="<?php echo $uploadNeed;?>">
+					<input type="submit" name="submit" value="Upload">&nbsp;&nbsp;&nbsp;&nbsp;
+			<?php	
+				}
+			?>
+			
+				<input type="button" name="Cancel" value="Cancel" onClick="location.href='uploadFiles.php'">
+				</p>
+		</form>
+
+<!-- ============ End Content ============== -->
+	</td>
+
+<!-- ============ Right Column ============== -->
+	<td class="Right" width="10%">
+	</td>
+	</tr>
+
+</table>
+
+<!-- ============ Footer ============== -->
+
+<table class="NavBar" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td style="color: gray;">
+	<table class="NavBarMenu" cellspacing="0" border="0">
+    <tr>
+      <td class="NavBar_f" colspan="3"><a href="http://www.up.edu.ph">UP System</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upd.edu.ph"> UP Diliman</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.uplb.edu.ph" > UP Los Ba&ntilde;os</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upm.edu.ph" > UP Manila</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upv.edu.ph/" > UP Visayas</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upou.edu.ph" > UP Open University</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upmin.edu.ph/"> UP Mindanao</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upb.edu.ph" > UP Baguio</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+      <td class="NavBar_f" colspan="3"><a href="http://www.upcebu.edu.ph" > UP Cebu</a> &nbsp;&nbsp; | &nbsp;&nbsp; </td>
+	  <td colspan="3" class="Footer" style="vertical-align: middle;">   
+        <p class="style3"><font size="-2"> Copyright &copy; 2014 All Rights Reserved</font></p></td>
+    </tr>
+	</table>
+	</td>
+</tr>  
+</table>
+<div style="height: 1px; background: #284151;"><img src="space1x1.gif" width="1" height="1" alt="spacer"></div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+
+</html>

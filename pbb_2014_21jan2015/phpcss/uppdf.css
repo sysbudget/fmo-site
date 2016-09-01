@@ -1,0 +1,57 @@
+body {
+	background-color: inherit; /* background color */
+	font-family: Helvetica; /* font name */
+	font-size: xx-small; /* font size - DO NOT CHANGE! */
+}
+
+/* table for PDF export */
+.upTablePdf {
+	border: 0;
+	border-spacing: 0;
+	border-collapse: separate;
+	font-size: xx-small; /* font size - DO NOT CHANGE! */
+	width: 100%;
+
+/*	margin: auto; */
+	margin-left: 0mm;
+	margin-right: 0mm;
+}
+.upTablePdf td {
+	padding: 3px; /* cell padding */
+	border-bottom: 0.5px solid; /* border width, horizontal grid line */
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0.5px solid; /* border width, vertical grid line */
+	border-color: #BFD3EE;  /* border color */
+
+/*	margin: auto; */
+}
+.upTablePdf .upTablePdfHeader, .upTablePdf .upTablePdfHeader td {
+	background-color: #0099FF;	/* header bgcolor */
+	color: #000000; /* header font color */
+	border-bottom: 0.5px solid; /* header border width */
+	border-right: 0.5px solid; /* header border width */
+	border-color: #4F93E3; /* header border color */	
+	background-image: url(../phpimages/); /* header bg image */
+	background-repeat: repeat-x;		
+	vertical-align: top;
+}
+.upTablePdfBorder {
+	padding: 0;	
+	border: 0.5px solid #BFD3EE; /* grid border */
+}
+
+/* row color */
+.upTablePdf .upTableRow, .upTablePdf .upTableRow td {
+	background-color: #FFFFFF;  /* alt row color 1 */
+}
+
+/* alternate row color */
+.upTablePdf .upTableAltRow, .upTablePdf .upTableAltRow td {
+	background-color: #EDF5FF; /* alt row color 2 */
+}
+
+/* main table footer */
+.upTablePdf .upTablePdfFooter td {
+	background-color: #D4E7FD; /* footer color */
+}

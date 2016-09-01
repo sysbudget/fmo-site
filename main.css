@@ -1,0 +1,156 @@
+BODY {
+MARGIN: 0px; 
+PADDING: 10px;
+BACKGROUND: #808080;
+COLOR: #000000;
+} 
+
+A:link {background: none; color: green; text-decoration: underline; font-weight: bold; cursor: pointer;}
+A:visited {background: none; color: green; text-decoration: underline; font-weight: bold; cursor: pointer;}
+A:hover {background: none; color: red; text-decoration: underline; cursor: pointer;}
+A:active { background: none; color: red; text-decoration: underline; cursor: pointer;}
+
+.Global {
+WIDTH: 100%;
+HEIGHT: 90%;
+}
+
+.Global TD {
+VERTICAL-ALIGN: top;
+}
+
+.Header {
+BACKGROUND: #def2fa;
+COLOR: inherit;
+WIDTH: 100%;
+HEIGHT: 65px;
+PADDING: 0px; 
+}
+
+.Header TD {
+BACKGROUND: #def2fa;
+COLOR: inherit;
+WIDTH: 50%;
+BORDER: 0px;
+PADDING: 0px;
+VERTICAL-ALIGN: top;
+TEXT-ALIGN: left;
+}
+
+.NavBar {
+WIDTH: 100%;
+HEIGHT: 27px;
+}
+.NavBar TD {
+BACKGROUND: url("blueline-gradient.gif") repeat;
+color:inherit;
+FONT: 14px arial,sans-serif;
+PADDING: 0px 0px 0px 35px;
+TEXT-ALIGN: left;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+.NavBar_f TD {
+BACKGROUND: url("blueline-gradient.gif") repeat;
+COLOR:inherit;
+FONT: 14px arial,sans-serif;
+PADDING: 0px 0px 0px 35px;
+TEXT-ALIGN: left;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+
+.NavBarMenu TD {
+BACKGROUND: none;
+COLOR: inherit;
+FONT: 14px arial,sans-serif;
+PADDING: 0px 0px 0px 0px;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+.NavBarMenu_f TD {
+BACKGROUND: none;
+COLOR:inherit;
+FONT: 14px arial,sans-serif;
+PADDING: 0px 0px 0px 0px;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+
+.Left {
+BACKGROUND: #ffffff;
+COLOR: inherit;
+}
+
+.Content {
+BACKGROUND: #ebf1f5;
+COLOR: inherit;
+}
+
+.Right {
+BACKGROUND: #ffffff;
+COLOR: inherit;
+}
+
+.RightPanelBox {
+WIDTH: 100%; 
+HEIGHT: 100%; 
+BACKGROUND: #fdfbec; 
+BORDER: 1px solid gray;
+}
+
+.BoxStyle {
+WIDTH: 90%;
+BORDER: 1px solid gray;
+MARGIN-TOP: 15px;
+}
+
+.BoxStyle TD {
+BACKGROUND: #fdfbec;
+COLOR: inherit;
+PADDING: 0px;
+TEXT-ALIGN: left;
+BORDER: 0px;
+}
+
+.HeadingStyle {
+BACKGROUND: inherit;
+COLOR: #000000;
+FONT: bold 20px arial,sans-serif;
+}
+
+P {
+FONT: 14px arial,sans-serif;
+}
+
+.Padded {
+PADDING: 15px;
+}
+
+.SmallFont {
+FONT: 14px arial,sans-serif;
+}
+
+.MedFontBold {
+FONT: bold 15px arial,sans-serif;
+}
+
+.SmallFont TD {
+FONT: 14px arial,sans-serif;
+}
+
+.MedFontBold TD {
+FONT: bold 15px arial,sans-serif;
+}
+
+.Footer {
+BACKGROUND: url("blueline-bg01.gif");
+COLOR: #000000;
+FONT: 13px arial,sans-serif;
+HEIGHT: 22px;
+TEXT-ALIGN: center;
+}
+
+
+
+

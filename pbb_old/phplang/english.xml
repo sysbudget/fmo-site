@@ -1,0 +1,2707 @@
+<?xml version="1.0" standalone="yes"?>
+<up-language date="2015/9/18" version="8.0.0" id="en" name="English" desc="English" author="UP Budget Office.">
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add to"/>
+		<phrase id="addblankrow" value="Add Blank Row"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterpage" value="Back to master page"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password Page"/>
+		<phrase id="changepwdbtn" value="Change Password"/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copylink" value="Copy"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete From"/>
+		<phrase id="deletebtn" value="Confirm Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV"/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="exporttoxml" value="Export to XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;upRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert"/>
+		<phrase id="gridsavelink" value="Save"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy"/>
+		<phrase id="inlineeditlink" value="Inline Edit"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed"/>
+		<phrase id="insertlink" value="Insert"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value=""/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded."/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permission"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="phpuploaderr1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini."/>
+		<phrase id="phpuploaderr2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."/>
+		<phrase id="phpuploaderr3" value="The uploaded file was only partially uploaded."/>
+		<phrase id="phpuploaderr4" value="No file was uploaded."/>
+		<phrase id="phpuploaderr6" value="Missing a temporary folder."/>
+		<phrase id="phpuploaderr7" value="Failed to write file to disk."/>
+		<phrase id="phpuploaderr8" value="File upload stopped by extension."/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search (*)"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration Page"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password Page"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send Password"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value=""/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;%falert-small.gif&quot; alt=&quot;Value does not exist&quot; title=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="User Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables/Views"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><menu id="17"><phrase id="menutext" value="Delivery Unit Forms"/>
+</menu>
+<menu id="409"><phrase id="menutext" value="> Target Completion Status"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Target"/>
+</menu>
+<menu id="319"><phrase id="menutext" value="> Accomplishment Eligible Status"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Accomplishment"/>
+</menu>
+<menu id="466"><phrase id="menutext" value="> Form A 1 (Raw Format)"/>
+</menu>
+<menu id="414"><phrase id="menutext" value="Form A-1 (IATF Format)"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="CU: Target Forms"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="> Step 1: Delivery Units"/>
+</menu>
+<menu id="410"><phrase id="menutext" value="> Step 2: Budget per MFO"/>
+</menu>
+<menu id="407"><phrase id="menutext" value="> Step 2.1: Target Completion Status per MFO"/>
+</menu>
+<menu id="411"><phrase id="menutext" value="> Step 2.2: Target Completion Status per PI"/>
+</menu>
+<menu id="302"><phrase id="menutext" value="> Step 3: Accomplishment Eligible Status"/>
+</menu>
+<menu id="303"><phrase id="menutext" value="Eligible Status: Unit"/>
+</menu>
+<menu id="304"><phrase id="menutext" value="Eligible Status: MFO"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="frm fp pbb detail target"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="frm fp pbb detail accomplishment"/>
+</menu>
+<menu id="463"><phrase id="menutext" value="CU: Form A and Form A-1 Reports"/>
+</menu>
+<menu id="354"><phrase id="menutext" value="> Report 1: Form A (Raw Format)"/>
+</menu>
+<menu id="464"><phrase id="menutext" value="> Report 2: Form A-1 (Raw Format)"/>
+</menu>
+<menu id="465"><phrase id="menutext" value="> Report 3: Form A-1 (IATF Format) per Delivery Unit"/>
+</menu>
+<menu id="413"><phrase id="menutext" value="Form A-1 (IATF Format)"/>
+</menu>
+<menu id="400"><phrase id="menutext" value="System: Target Forms"/>
+</menu>
+<menu id="153"><phrase id="menutext" value="Executive Offices"/>
+</menu>
+<menu id="158"><phrase id="menutext" value="Units"/>
+</menu>
+<menu id="351"><phrase id="menutext" value="Target Completion Status"/>
+</menu>
+<menu id="408"><phrase id="menutext" value="Target Completion Status per MFO"/>
+</menu>
+<menu id="412"><phrase id="menutext" value="Target Completion Status per PI"/>
+</menu>
+<menu id="401"><phrase id="menutext" value="System: Accomplishment Forms"/>
+</menu>
+<menu id="305"><phrase id="menutext" value="Eligible Status"/>
+</menu>
+<menu id="309"><phrase id="menutext" value="Eligible Status Unit"/>
+</menu>
+<menu id="313"><phrase id="menutext" value="Eligible Status Unit MFO"/>
+</menu>
+<menu id="73"><phrase id="menutext" value="System: Reports"/>
+</menu>
+<menu id="402"><phrase id="menutext" value="Form A"/>
+</menu>
+<menu id="403"><phrase id="menutext" value="Form A (CU)"/>
+</menu>
+<menu id="404"><phrase id="menutext" value="Form A - 1"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="Maintenance"/>
+</menu>
+<menu id="152"><phrase id="menutext" value="Collection Period"/>
+</menu>
+<menu id="154"><phrase id="menutext" value="Cut-Off Date"/>
+</menu>
+<menu id="155"><phrase id="menutext" value="MFO Questions"/>
+</menu>
+<menu id="156"><phrase id="menutext" value="MFO Questions Per CU Quota"/>
+</menu>
+<menu id="157"><phrase id="menutext" value="frm sam pbb detail"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="Administrator"/>
+</menu>
+<menu id="159"><phrase id="menutext" value="Users"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="Users"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="MFO Questions"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Cut-Off Date"/>
+</menu>
+<menu id="79"><phrase id="menutext" value="Executive Offices"/>
+</menu>
+<menu id="80"><phrase id="menutext" value="Collection Period"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="tbl units"/>
+</menu>
+<menu id="151"><phrase id="menutext" value="tbl mfo questions cu"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="tbl pbb detail"/>
+</menu>
+<menu id="405"><phrase id="menutext" value="tbl pbb detail budget"/>
+</menu>
+<table id="frm_fp_pbb_detail_accomplishment"><phrase id="tblcaption" value="MFO-PI"/>
+<phrase id="tblpagecaption1" value="Accomplishment"/>
+<phrase id="tblpagecaption2" value="Target"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="Applicable"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="frm_fp_pbb_detail_budget"><phrase id="tblcaption" value="Budget per MFO"/>
+<field id="pbb_budget_id"><phrase id="fldcaption" value="pbb budget id"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="Budget"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="t cut Off Date"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+</table>
+<table id="frm_fp_pbb_detail_target"><phrase id="tblcaption" value="MFO"/>
+<phrase id="tblpagecaption1" value="Target"/>
+<phrase id="tblpagecaption2" value="Accomplishment"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="Applicable"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="frm_fp_rep_a_eligible_status"><phrase id="tblcaption" value="Eligible Status"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="participated3a_unit_count"><phrase id="fldcaption" value="Participated: Unit Count"/>
+</field>
+<field id="participated3a_personnel_count"><phrase id="fldcaption" value="Participated: Personnel Count"/>
+</field>
+<field id="not_eligible3a_unit_count"><phrase id="fldcaption" value="Not Eligible: Unit Count"/>
+</field>
+<field id="not_eligible3a_25_unit_count"><phrase id="fldcaption" value="Not Eligible: % Unit Count"/>
+</field>
+<field id="not_eligible3a_personnel_count"><phrase id="fldcaption" value="Not Eligible: Personnel Count"/>
+</field>
+<field id="eligible3a_unit_count"><phrase id="fldcaption" value="Eligible: Unit Count"/>
+</field>
+<field id="eligible3a_25_unit_count"><phrase id="fldcaption" value="Eligible: % Unit Count"/>
+</field>
+<field id="eligible3a_personnel_count"><phrase id="fldcaption" value="Eligible: Personnel Count"/>
+</field>
+</table>
+<table id="frm_fp_rep_a_eligible_status_unit"><phrase id="tblcaption" value="Delivery Units"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="participated_mfo_count"><phrase id="fldcaption" value="Participated MFO Count"/>
+</field>
+<field id="not_started_mfo_count"><phrase id="fldcaption" value="Not Started MFO Count"/>
+</field>
+<field id="z25_not_started_mfo"><phrase id="fldcaption" value="% Not Started MFO"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="not_eligible_mfo_count"><phrase id="fldcaption" value="Not Eligible MFO Count"/>
+</field>
+<field id="z25_not_eligible_mfo_count"><phrase id="fldcaption" value="% Not Eligible MFO Count"/>
+</field>
+<field id="eligible_mfo_count"><phrase id="fldcaption" value="Eligible MFO Count"/>
+</field>
+<field id="z25_eligible_mfo_count"><phrase id="fldcaption" value="% Eligible MFO Count"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+</table>
+<table id="frm_fp_rep_a_eligible_status_unit_mfo"><phrase id="tblcaption" value="MFO"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="Budget"/>
+</field>
+<field id="participated_pi"><phrase id="fldcaption" value="Participated PI Count"/>
+</field>
+<field id="not_started_pi"><phrase id="fldcaption" value="Not Started PI Count"/>
+</field>
+<field id="z25_not_started_pi"><phrase id="fldcaption" value="% Not Started PI"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="not_eligible_pi_count"><phrase id="fldcaption" value="Not Eligible PI Count"/>
+</field>
+<field id="z25_not_eligible_pi_count"><phrase id="fldcaption" value="% Not Eligible PI"/>
+</field>
+<field id="eligible_pi_count"><phrase id="fldcaption" value="Eligible PI Count"/>
+</field>
+<field id="z25_eligible_pi_count"><phrase id="fldcaption" value="% Eligible PI"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+</table>
+<table id="frm_fp_rep_t_completion_status_unit_mfo"><phrase id="tblcaption" value="Target Completion Status per MFO"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="Budget"/>
+</field>
+<field id="no2e_of_pis_28a29"><phrase id="fldcaption" value="No. of PIs (A)"/>
+</field>
+<field id="applicable_pis_28b29"><phrase id="fldcaption" value="Applicable PIs (B)"/>
+</field>
+<field id="not_applicable_pis_28c29"><phrase id="fldcaption" value="Not Applicable PIs (C)"/>
+</field>
+<field id="pi_with_target_28d29"><phrase id="fldcaption" value="PIs with Target (D)"/>
+</field>
+<field id="remarks_28a_3d_c29"><phrase id="fldcaption" value="Remarks (A = C)"/>
+</field>
+<field id="remarks_28b_3e_d29"><phrase id="fldcaption" value="Remarks (B &gt; D)"/>
+</field>
+<field id="remarks_28d_3d_029"><phrase id="fldcaption" value="Remarks (D = 0)"/>
+</field>
+</table>
+<table id="frm_fp_rep_t_completion_status_unit_pi"><phrase id="tblcaption" value="CU Target Completion Status"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="total_no2e_of_pis_participated"><phrase id="fldcaption" value="Total No. of PIs Participated"/>
+</field>
+<field id="pis_not_yet_started"><phrase id="fldcaption" value="PIs Not Yet Started"/>
+</field>
+<field id="pis_started"><phrase id="fldcaption" value="PIs Started"/>
+</field>
+<field id="z25_completed"><phrase id="fldcaption" value="% Completed"/>
+</field>
+<field id="completion_status"><phrase id="fldcaption" value="Completion Status"/>
+</field>
+</table>
+<table id="frm_fp_rep_ta_form_a_1"><phrase id="tblcaption" value="CU Form A 1 (Raw Format)"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="constituent_university"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="delivery_unit"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="pi_1"><phrase id="fldcaption" value="PI 1"/>
+</field>
+<field id="pi_question_28129"><phrase id="fldcaption" value="PI Question (1)"/>
+</field>
+<field id="target_28129"><phrase id="fldcaption" value="Target (1)"/>
+</field>
+<field id="target_n_28129"><phrase id="fldcaption" value="Target N (1)"/>
+</field>
+<field id="target_d_28129"><phrase id="fldcaption" value="Target D (1)"/>
+</field>
+<field id="remarks_28129"><phrase id="fldcaption" value="Remarks (1)"/>
+</field>
+<field id="pi_2"><phrase id="fldcaption" value="PI 2"/>
+</field>
+<field id="pi_question_28229"><phrase id="fldcaption" value="PI Question (2)"/>
+</field>
+<field id="target_28229"><phrase id="fldcaption" value="Target (2)"/>
+</field>
+<field id="target_n_28229"><phrase id="fldcaption" value="Target N (2)"/>
+</field>
+<field id="target_d_28229"><phrase id="fldcaption" value="Target D (2)"/>
+</field>
+<field id="remarks_28229"><phrase id="fldcaption" value="Remarks (2)"/>
+</field>
+<field id="pi_3"><phrase id="fldcaption" value="PI 3"/>
+</field>
+<field id="pi_question_28329"><phrase id="fldcaption" value="PI Question (3)"/>
+</field>
+<field id="target_28329"><phrase id="fldcaption" value="Target (3)"/>
+</field>
+<field id="target_n_28329"><phrase id="fldcaption" value="Target N (3)"/>
+</field>
+<field id="target_d_28329"><phrase id="fldcaption" value="Target D (3)"/>
+</field>
+<field id="remarks_28329"><phrase id="fldcaption" value="Remarks (3)"/>
+</field>
+<field id="pi_4"><phrase id="fldcaption" value="PI 4"/>
+</field>
+<field id="pi_question_28429"><phrase id="fldcaption" value="PI Question (4)"/>
+</field>
+<field id="target_28429"><phrase id="fldcaption" value="Target (4)"/>
+</field>
+<field id="target_n_28429"><phrase id="fldcaption" value="Target N (4)"/>
+</field>
+<field id="target_d_28429"><phrase id="fldcaption" value="Target D (4)"/>
+</field>
+<field id="remarks_28429"><phrase id="fldcaption" value="Remarks (4)"/>
+</field>
+<field id="pi_5"><phrase id="fldcaption" value="PI 5"/>
+</field>
+<field id="pi_question_28529"><phrase id="fldcaption" value="PI Question (5)"/>
+</field>
+<field id="target_28529"><phrase id="fldcaption" value="Target (5)"/>
+</field>
+<field id="target_n_28529"><phrase id="fldcaption" value="Target N (5)"/>
+</field>
+<field id="target_d_28529"><phrase id="fldcaption" value="Target D (5)"/>
+</field>
+<field id="remarks_28529"><phrase id="fldcaption" value="Remarks (5)"/>
+</field>
+<field id="pi_6"><phrase id="fldcaption" value="PI 6"/>
+</field>
+<field id="pi_question_28629"><phrase id="fldcaption" value="PI Question (6)"/>
+</field>
+<field id="target_28629"><phrase id="fldcaption" value="Target (6)"/>
+</field>
+<field id="target_n_28629"><phrase id="fldcaption" value="Target N (6)"/>
+</field>
+<field id="target_d_28629"><phrase id="fldcaption" value="Target D (6)"/>
+</field>
+<field id="remarks_28629"><phrase id="fldcaption" value="Remarks (6)"/>
+</field>
+<field id="pi_7"><phrase id="fldcaption" value="PI 7"/>
+</field>
+<field id="pi_question_28729"><phrase id="fldcaption" value="PI Question (7)"/>
+</field>
+<field id="target_28729"><phrase id="fldcaption" value="Target (7)"/>
+</field>
+<field id="target_n_28729"><phrase id="fldcaption" value="Target N (7)"/>
+</field>
+<field id="target_d_28729"><phrase id="fldcaption" value="Target D (7)"/>
+</field>
+<field id="remarks_28729"><phrase id="fldcaption" value="Remarks (7)"/>
+</field>
+<field id="pi_8"><phrase id="fldcaption" value="PI 8"/>
+</field>
+<field id="pi_question_28829"><phrase id="fldcaption" value="PI Question (8)"/>
+</field>
+<field id="target_28829"><phrase id="fldcaption" value="Target (8)"/>
+</field>
+<field id="target_n_28829"><phrase id="fldcaption" value="Target N (8)"/>
+</field>
+<field id="target_d_28829"><phrase id="fldcaption" value="Target D (8)"/>
+</field>
+<field id="remarks_28829"><phrase id="fldcaption" value="Remarks (8)"/>
+</field>
+<field id="pi_9"><phrase id="fldcaption" value="PI 9"/>
+</field>
+<field id="pi_question_28929"><phrase id="fldcaption" value="PI Question (9)"/>
+</field>
+<field id="target_28929"><phrase id="fldcaption" value="Target (9)"/>
+</field>
+<field id="target_n_28929"><phrase id="fldcaption" value="Target N (9)"/>
+</field>
+<field id="target_d_28929"><phrase id="fldcaption" value="Target D (9)"/>
+</field>
+<field id="remarks_28929"><phrase id="fldcaption" value="Remarks (9)"/>
+</field>
+<field id="pi_10"><phrase id="fldcaption" value="PI 10"/>
+</field>
+<field id="pi_question_281029"><phrase id="fldcaption" value="PI Question (10)"/>
+</field>
+<field id="target_281029"><phrase id="fldcaption" value="Target (10)"/>
+</field>
+<field id="target_n_281029"><phrase id="fldcaption" value="Target N (10)"/>
+</field>
+<field id="target_d_281029"><phrase id="fldcaption" value="Target D (10)"/>
+</field>
+<field id="remarks_281029"><phrase id="fldcaption" value="Remarks (10)"/>
+</field>
+<field id="pi_11"><phrase id="fldcaption" value="PI 11"/>
+</field>
+<field id="pi_question_281129"><phrase id="fldcaption" value="PI Question (11)"/>
+</field>
+<field id="target_281129"><phrase id="fldcaption" value="Target (11)"/>
+</field>
+<field id="target_n_281129"><phrase id="fldcaption" value="Target N (11)"/>
+</field>
+<field id="target_d_281129"><phrase id="fldcaption" value="Target D (11)"/>
+</field>
+<field id="remarks_281129"><phrase id="fldcaption" value="Remarks (11)"/>
+</field>
+<field id="pi_12"><phrase id="fldcaption" value="PI 12"/>
+</field>
+<field id="pi_question_281229"><phrase id="fldcaption" value="PI Question (12)"/>
+</field>
+<field id="target_281229"><phrase id="fldcaption" value="Target (12)"/>
+</field>
+<field id="target_n_281229"><phrase id="fldcaption" value="Target N (12)"/>
+</field>
+<field id="target_d_281229"><phrase id="fldcaption" value="Target D (12)"/>
+</field>
+<field id="remarks_281229"><phrase id="fldcaption" value="Remarks (12)"/>
+</field>
+</table>
+<table id="frm_fp_rep_ta_form_a_1_iatf"><phrase id="tblcaption" value="Form A 1 (IATF Format)"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="constituent_university"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="responsible_bureaus_28129"><phrase id="fldcaption" value="Responsible Bureaus (1)"/>
+</field>
+<field id="mfos"><phrase id="fldcaption" value="MFOs"/>
+</field>
+<field id="form_a_1_mfo"><phrase id="fldcaption" value="form a 1 mfo"/>
+</field>
+<field id="performance_indicator_1_28229"><phrase id="fldcaption" value="Performance Indicator 1 (2)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_1_28329"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 1 (3)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_1_28429"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 1 (4)"/>
+</field>
+<field id="performance_indicator_2_28529"><phrase id="fldcaption" value="Performance Indicator 2 (5)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_2_28629"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 2 (6)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_2_28729"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 2 (7)"/>
+</field>
+<field id="performance_indicator_3_28829"><phrase id="fldcaption" value="Performance Indicator 3 (8)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_3_28929"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 3 (9)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281029"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 3 (10)"/>
+</field>
+<field id="performance_indicator_4_281129"><phrase id="fldcaption" value="Performance Indicator 4 (11)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_4_281229"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 4 (12)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281329"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 4 (13)"/>
+</field>
+<field id="performance_indicator_5_281429"><phrase id="fldcaption" value="Performance Indicator 5 (14)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_5_281529"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 5 (15)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281629"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 5 (16)"/>
+</field>
+<field id="performance_indicator_6_281729"><phrase id="fldcaption" value="Performance Indicator 6 (17)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_6_281829"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 6 (18)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281929"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 6 (19)"/>
+</field>
+<field id="performance_indicator_7_282029"><phrase id="fldcaption" value="Performance Indicator 7 (20)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_7_282129"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 7 (21)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282229"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 7 (22)"/>
+</field>
+<field id="performance_indicator_8_282329"><phrase id="fldcaption" value="Performance Indicator 8 (23)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_8_282429"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 8 (24)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282529"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 8 (25)"/>
+</field>
+<field id="performance_indicator_9_282629"><phrase id="fldcaption" value="Performance Indicator 9 (26)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_9_282729"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 9 (27)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282829"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 9 (28)"/>
+</field>
+<field id="performance_indicator_10_282929"><phrase id="fldcaption" value="Performance Indicator 10 (29)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_10_283029"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 10 (30)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283129"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 10 (31)"/>
+</field>
+<field id="performance_indicator_11_283229"><phrase id="fldcaption" value="Performance Indicator 11 (32)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_11_283329"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 11 (33)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283429"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 11 (34)"/>
+</field>
+<field id="performance_indicator_12_283529"><phrase id="fldcaption" value="Performance Indicator 12 (35)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_12_283629"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 12 (36)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283729"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 12 (37)"/>
+</field>
+</table>
+<table id="frm_fp_rep_ta_form_a_1_iatf_header"><phrase id="tblcaption" value="Form A 1 (IATF Format) per Delivery Unit"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="delivery_unit"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+</table>
+<table id="frm_fp_rep_ta_form_a_cu"><phrase id="tblcaption" value="CU Form A  (Raw Format)"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_office"><phrase id="fldcaption" value="CU Office"/>
+</field>
+<field id="sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="participating_units_count"><phrase id="fldcaption" value="Participating Units Count"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="numerator_28t29"><phrase id="fldcaption" value="Numerator (T)"/>
+</field>
+<field id="denominator_28t29"><phrase id="fldcaption" value="Denominator (T)"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="numerator_28a29"><phrase id="fldcaption" value="Numerator (A)"/>
+</field>
+<field id="denominator_28a29"><phrase id="fldcaption" value="Denominator (A)"/>
+</field>
+<field id="rating"><phrase id="fldcaption" value="Rating"/>
+</field>
+<field id="supporting_documents_count"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+</table>
+<table id="frm_fp_units"><phrase id="tblcaption" value="Delivery Units"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="unit_id"><phrase id="fldcaption" value="unit id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="unit_name_short"><phrase id="fldcaption" value="unit name short"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="mfo_1"><phrase id="fldcaption" value="MFO 1"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_2"><phrase id="fldcaption" value="MFO 2"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_3"><phrase id="fldcaption" value="MFO 3"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_4"><phrase id="fldcaption" value="MFO 4"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_5"><phrase id="fldcaption" value="MFO 5"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="sto"><phrase id="fldcaption" value="STO"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="gass"><phrase id="fldcaption" value="GASS"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="cu_id"><phrase id="fldcaption" value="cu id"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+</table>
+<table id="frm_sam_collection_period"><phrase id="tblcaption" value="Collection Period"/>
+<field id="collection_id"><phrase id="fldcaption" value="collection id"/>
+</field>
+<field id="collection_year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="collection_description"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="collection_date"><phrase id="fldcaption" value="Collection Date"/>
+</field>
+</table>
+<table id="frm_sam_cu_executive_offices"><phrase id="tblcaption" value="Executive Offices"/>
+<field id="cu_id"><phrase id="fldcaption" value="cu id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="Focal Person ID"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="Short Name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="Full Name"/>
+</field>
+</table>
+<table id="frm_sam_cutoffdate"><phrase id="tblcaption" value="Cut-Off Date"/>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="collection_id"><phrase id="fldcaption" value="collection id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="Focal Person Office"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="Focal Person Office"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="Target Start Date"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="Target Cut-Off Date FP"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date Remarks"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="Accomplishment Start Date"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="Accomplishment Cut-Off Date FP"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date Remarks"/>
+</field>
+</table>
+<table id="frm_sam_mfo_questions"><phrase id="tblcaption" value="MFO Questions"/>
+<field id="mfo_id"><phrase id="fldcaption" value="mfo id"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="PI No"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="PI Sub"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO Name Form A"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO Name"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="gaa_value"><phrase id="fldcaption" value="GAA"/>
+</field>
+<field id="denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="pi_type"><phrase id="fldcaption" value="Type"/>
+</field>
+<field id="expectations"><phrase id="fldcaption" value="expectations"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+</table>
+<table id="frm_sam_mfo_questions_cu"><phrase id="tblcaption" value="frm sam mfo questions cu"/>
+<field id="target_quota_id"><phrase id="fldcaption" value="target quota id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="focal person office"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="mfo id"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="mfo name"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="pi question"/>
+</field>
+<field id="target_quota"><phrase id="fldcaption" value="target quota"/>
+</field>
+</table>
+<table id="frm_sam_pbb_detail"><phrase id="tblcaption" value="Delivery Unit"/>
+<phrase id="tblpagecaption1" value="Target"/>
+<phrase id="tblpagecaption2" value="Accomplishment"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="Applicable"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+</table>
+<table id="frm_sam_rep_a_eligible_status"><phrase id="tblcaption" value="Eligible Status"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="focal person office"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="participated3a_unit_count"><phrase id="fldcaption" value="Participated: Unit Count"/>
+</field>
+<field id="participated3a_personnel_count"><phrase id="fldcaption" value="Participated: Personnel Count"/>
+</field>
+<field id="not_eligible3a_unit_count"><phrase id="fldcaption" value="Not Eligible: Unit Count"/>
+</field>
+<field id="not_eligible3a_25_unit_count"><phrase id="fldcaption" value="Not Eligible: % Unit Count"/>
+</field>
+<field id="not_eligible3a_personnel_count"><phrase id="fldcaption" value="Not Eligible: Personnel Count"/>
+</field>
+<field id="eligible3a_unit_count"><phrase id="fldcaption" value="Eligible: Unit Count"/>
+</field>
+<field id="eligible3a_25_unit_count"><phrase id="fldcaption" value="Eligible: % Unit Count"/>
+</field>
+<field id="eligible3a_personnel_count"><phrase id="fldcaption" value="Eligible: Personnel Count"/>
+</field>
+</table>
+<table id="frm_sam_rep_a_eligible_status_unit"><phrase id="tblcaption" value="Delivery Unit"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="personnel count"/>
+</field>
+<field id="participated_mfo_count"><phrase id="fldcaption" value="Participated MFO Count"/>
+</field>
+<field id="not_started_mfo_count"><phrase id="fldcaption" value="Not Started MFO Count"/>
+</field>
+<field id="z25_not_started_mfo"><phrase id="fldcaption" value="% Not Started MFO"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="not_eligible_mfo_count"><phrase id="fldcaption" value="Not Eligible MFO Count"/>
+</field>
+<field id="z25_not_eligible_mfo_count"><phrase id="fldcaption" value="% Not Eligible MFO Count"/>
+</field>
+<field id="eligible_mfo_count"><phrase id="fldcaption" value="Eligible MFO Count"/>
+</field>
+<field id="z25_eligible_mfo_count"><phrase id="fldcaption" value="% Eligible MFO Count"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+</table>
+<table id="frm_sam_rep_a_eligible_status_unit_mfo"><phrase id="tblcaption" value="MFO"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="participated_pi"><phrase id="fldcaption" value="Participated PI"/>
+</field>
+<field id="not_started_pi"><phrase id="fldcaption" value="Not Started PI"/>
+</field>
+<field id="z25_not_started_pi"><phrase id="fldcaption" value="% Not Started PI"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="not_eligible_pi_count"><phrase id="fldcaption" value="Not Eligible PI Count"/>
+</field>
+<field id="z25_not_eligible_pi_count"><phrase id="fldcaption" value="% Not Eligible PI Count"/>
+</field>
+<field id="eligible_pi_count"><phrase id="fldcaption" value="Eligible PI Count"/>
+</field>
+<field id="z25_eligible_pi_count"><phrase id="fldcaption" value="% Eligible PI Count"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="budget"/>
+</field>
+</table>
+<table id="frm_sam_rep_t_completion_status"><phrase id="tblcaption" value="Target Completion Status"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="total3a_du_count"><phrase id="fldcaption" value="Total: DU Count"/>
+</field>
+<field id="total3a_personnel_count"><phrase id="fldcaption" value="Total: Personnel Count"/>
+</field>
+<field id="not_started3a_du_count"><phrase id="fldcaption" value="Not Started: DU Count"/>
+</field>
+<field id="not_started3a_personnel_count"><phrase id="fldcaption" value="Not Started: Personnel Count"/>
+</field>
+<field id="started3a_du_count"><phrase id="fldcaption" value="Started: DU Count"/>
+</field>
+<field id="started3a_personnel_count"><phrase id="fldcaption" value="Started: Personnel Count"/>
+</field>
+<field id="completed3a_du_count"><phrase id="fldcaption" value="Completed: DU Count"/>
+</field>
+<field id="completed3a_personnel_count"><phrase id="fldcaption" value="Completed: Personnel Count"/>
+</field>
+</table>
+<table id="frm_sam_rep_t_completion_status_unit_mfo"><phrase id="tblcaption" value="frm sam rep t completion status unit mfo"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="no2e_of_pis_28a29"><phrase id="fldcaption" value="No. of PIs (A)"/>
+</field>
+<field id="applicable_pis_28b29"><phrase id="fldcaption" value="Applicable PIs (B)"/>
+</field>
+<field id="not_applicable_pis_28c29"><phrase id="fldcaption" value="Not Applicable PIs (C)"/>
+</field>
+<field id="pi_with_target_28d29"><phrase id="fldcaption" value="PI with Target (D)"/>
+</field>
+<field id="remarks_28a_3d_c29"><phrase id="fldcaption" value="Remarks (A = C)"/>
+</field>
+<field id="remarks_28b_3e_d29"><phrase id="fldcaption" value="Remarks (B &gt; D)"/>
+</field>
+<field id="remarks_28d_3d_029"><phrase id="fldcaption" value="Remarks (D = 0)"/>
+</field>
+</table>
+<table id="frm_sam_rep_t_completion_status_unit_pi"><phrase id="tblcaption" value="frm sam rep t completion status unit pi"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="Unit"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="total_no2e_of_pis_participated"><phrase id="fldcaption" value="Total No. of PIs Participated"/>
+</field>
+<field id="pis_not_yet_started"><phrase id="fldcaption" value="PIs Not Yet Started"/>
+</field>
+<field id="pis_started"><phrase id="fldcaption" value="PIs Started"/>
+</field>
+<field id="z25_completed"><phrase id="fldcaption" value="% Completed"/>
+</field>
+<field id="completion_status"><phrase id="fldcaption" value="Completion Status"/>
+</field>
+</table>
+<table id="frm_sam_rep_ta_form_a_0"><phrase id="tblcaption" value="System Wide Form A"/>
+<field id="sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="gaa"><phrase id="fldcaption" value="GAA"/>
+</field>
+<field id="sum_2f_avg"><phrase id="fldcaption" value="Target Sum / Avg"/>
+</field>
+<field id="numerator_28t29"><phrase id="fldcaption" value="Numerator (T)"/>
+</field>
+<field id="denominator_28t29"><phrase id="fldcaption" value="Denominator (T)"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="participating_units_count"><phrase id="fldcaption" value="Participating Units Count"/>
+</field>
+<field id="participating_units"><phrase id="fldcaption" value="Participating Units"/>
+</field>
+</table>
+<table id="frm_sam_rep_ta_form_a_0_cu"><phrase id="tblcaption" value="CU Form A"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_office"><phrase id="fldcaption" value="CU Office"/>
+</field>
+<field id="sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="participating_units_count"><phrase id="fldcaption" value="Participating Units Count"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="numerator_28t29"><phrase id="fldcaption" value="Numerator (T)"/>
+</field>
+<field id="denominator_28t29"><phrase id="fldcaption" value="Denominator (T)"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="numerator_28a29"><phrase id="fldcaption" value="Numerator (A)"/>
+</field>
+<field id="denominator_28a29"><phrase id="fldcaption" value="Denominator (A)"/>
+</field>
+<field id="supporting_documents_count"><phrase id="fldcaption" value="Supporting Documents Count"/>
+</field>
+<field id="rating"><phrase id="fldcaption" value="Rating"/>
+</field>
+</table>
+<table id="frm_sam_rep_ta_form_a_1"><phrase id="tblcaption" value="Form A - 1"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="constituent_university"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="delivery_unit"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="pi_1"><phrase id="fldcaption" value="PI 1"/>
+</field>
+<field id="target_28129"><phrase id="fldcaption" value="Target (1)"/>
+</field>
+<field id="target_n_28129"><phrase id="fldcaption" value="Target N (1)"/>
+</field>
+<field id="target_d_28129"><phrase id="fldcaption" value="Target D (1)"/>
+</field>
+<field id="remarks_28129"><phrase id="fldcaption" value="Remarks (1)"/>
+</field>
+<field id="pi_2"><phrase id="fldcaption" value="PI 2"/>
+</field>
+<field id="target_28229"><phrase id="fldcaption" value="Target (2)"/>
+</field>
+<field id="target_n_28229"><phrase id="fldcaption" value="Target N (2)"/>
+</field>
+<field id="target_d_28229"><phrase id="fldcaption" value="Target D (2)"/>
+</field>
+<field id="remarks_28229"><phrase id="fldcaption" value="Remarks (2)"/>
+</field>
+<field id="pi_3"><phrase id="fldcaption" value="PI 3"/>
+</field>
+<field id="target_28329"><phrase id="fldcaption" value="Target (3)"/>
+</field>
+<field id="target_n_28329"><phrase id="fldcaption" value="Target N (3)"/>
+</field>
+<field id="target_d_28329"><phrase id="fldcaption" value="Target D (3)"/>
+</field>
+<field id="remarks_28329"><phrase id="fldcaption" value="Remarks (3)"/>
+</field>
+<field id="pi_4"><phrase id="fldcaption" value="PI 4"/>
+</field>
+<field id="target_28429"><phrase id="fldcaption" value="Target (4)"/>
+</field>
+<field id="target_n_28429"><phrase id="fldcaption" value="Target N (4)"/>
+</field>
+<field id="target_d_28429"><phrase id="fldcaption" value="Target D (4)"/>
+</field>
+<field id="remarks_28429"><phrase id="fldcaption" value="Remarks (4)"/>
+</field>
+<field id="pi_5"><phrase id="fldcaption" value="PI 5"/>
+</field>
+<field id="target_28529"><phrase id="fldcaption" value="Target (5)"/>
+</field>
+<field id="target_n_28529"><phrase id="fldcaption" value="Target N (5)"/>
+</field>
+<field id="target_d_28529"><phrase id="fldcaption" value="Target D (5)"/>
+</field>
+<field id="remarks_28529"><phrase id="fldcaption" value="Remarks (5)"/>
+</field>
+<field id="pi_6"><phrase id="fldcaption" value="PI 6"/>
+</field>
+<field id="target_28629"><phrase id="fldcaption" value="Target (6)"/>
+</field>
+<field id="target_n_28629"><phrase id="fldcaption" value="Target N (6)"/>
+</field>
+<field id="target_d_28629"><phrase id="fldcaption" value="Target D (6)"/>
+</field>
+<field id="remarks_28629"><phrase id="fldcaption" value="Remarks (6)"/>
+</field>
+<field id="pi_7"><phrase id="fldcaption" value="PI 7"/>
+</field>
+<field id="target_28729"><phrase id="fldcaption" value="Target (7)"/>
+</field>
+<field id="target_n_28729"><phrase id="fldcaption" value="Target N (7)"/>
+</field>
+<field id="target_d_28729"><phrase id="fldcaption" value="Target D (7)"/>
+</field>
+<field id="remarks_28729"><phrase id="fldcaption" value="Remarks (7)"/>
+</field>
+<field id="pi_8"><phrase id="fldcaption" value="PI 8"/>
+</field>
+<field id="target_28829"><phrase id="fldcaption" value="Target (8)"/>
+</field>
+<field id="target_n_28829"><phrase id="fldcaption" value="Target N (8)"/>
+</field>
+<field id="target_d_28829"><phrase id="fldcaption" value="Target D (8)"/>
+</field>
+<field id="remarks_28829"><phrase id="fldcaption" value="Remarks (8)"/>
+</field>
+<field id="pi_9"><phrase id="fldcaption" value="PI 9"/>
+</field>
+<field id="target_28929"><phrase id="fldcaption" value="Target (9)"/>
+</field>
+<field id="target_n_28929"><phrase id="fldcaption" value="Target N (9)"/>
+</field>
+<field id="target_d_28929"><phrase id="fldcaption" value="Target D (9)"/>
+</field>
+<field id="remarks_28929"><phrase id="fldcaption" value="Remarks (9)"/>
+</field>
+<field id="pi_10"><phrase id="fldcaption" value="PI 10"/>
+</field>
+<field id="target_281029"><phrase id="fldcaption" value="Target (10)"/>
+</field>
+<field id="target_n_281029"><phrase id="fldcaption" value="Target N (10)"/>
+</field>
+<field id="target_d_281029"><phrase id="fldcaption" value="Target D (10)"/>
+</field>
+<field id="remarks_281029"><phrase id="fldcaption" value="Remarks (10)"/>
+</field>
+<field id="pi_11"><phrase id="fldcaption" value="PI 11"/>
+</field>
+<field id="target_281129"><phrase id="fldcaption" value="Target (11)"/>
+</field>
+<field id="target_n_281129"><phrase id="fldcaption" value="Target N (11)"/>
+</field>
+<field id="target_d_281129"><phrase id="fldcaption" value="Target D (11)"/>
+</field>
+<field id="remarks_281129"><phrase id="fldcaption" value="Remarks (11)"/>
+</field>
+<field id="pi_12"><phrase id="fldcaption" value="PI 12"/>
+</field>
+<field id="target_281229"><phrase id="fldcaption" value="Target (12)"/>
+</field>
+<field id="target_n_281229"><phrase id="fldcaption" value="Target N (12)"/>
+</field>
+<field id="target_d_281229"><phrase id="fldcaption" value="Target D (12)"/>
+</field>
+<field id="remarks_281229"><phrase id="fldcaption" value="Remarks (12)"/>
+</field>
+<field id="pi_question_28129"><phrase id="fldcaption" value="PI Question (1)"/>
+</field>
+<field id="pi_question_28229"><phrase id="fldcaption" value="PI Question (2)"/>
+</field>
+<field id="pi_question_28329"><phrase id="fldcaption" value="PI Question (3)"/>
+</field>
+<field id="pi_question_28429"><phrase id="fldcaption" value="PI Question (4)"/>
+</field>
+<field id="pi_question_28529"><phrase id="fldcaption" value="PI Question (5)"/>
+</field>
+<field id="pi_question_28629"><phrase id="fldcaption" value="PI Question (6)"/>
+</field>
+<field id="pi_question_28729"><phrase id="fldcaption" value="PI Question (7)"/>
+</field>
+<field id="pi_question_28829"><phrase id="fldcaption" value="PI Question (8)"/>
+</field>
+<field id="pi_question_28929"><phrase id="fldcaption" value="PI Question (9)"/>
+</field>
+<field id="pi_question_281029"><phrase id="fldcaption" value="PI Question (10)"/>
+</field>
+<field id="pi_question_281129"><phrase id="fldcaption" value="PI Question (11)"/>
+</field>
+<field id="pi_question_281229"><phrase id="fldcaption" value="PI Question (12)"/>
+</field>
+</table>
+<table id="frm_sam_units"><phrase id="tblcaption" value="CU Units"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_id"><phrase id="fldcaption" value="cu id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="unit_id"><phrase id="fldcaption" value="unit id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="unit_name_short"><phrase id="fldcaption" value="unit name short"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="mfo_1"><phrase id="fldcaption" value="MFO 1"/>
+</field>
+<field id="mfo_2"><phrase id="fldcaption" value="MFO 2"/>
+</field>
+<field id="mfo_3"><phrase id="fldcaption" value="MFO 3"/>
+</field>
+<field id="mfo_4"><phrase id="fldcaption" value="MFO 4"/>
+</field>
+<field id="mfo_5"><phrase id="fldcaption" value="MFO 5"/>
+</field>
+<field id="sto"><phrase id="fldcaption" value="STO"/>
+</field>
+<field id="gass"><phrase id="fldcaption" value="GASS"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+</table>
+<table id="frm_sam_users"><phrase id="tblcaption" value="tbl users"/>
+<field id="users_id"><phrase id="fldcaption" value="users ID"/>
+</field>
+<field id="cu"><phrase id="fldcaption" value="cu"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="users_name"><phrase id="fldcaption" value="users name"/>
+</field>
+<field id="users_namelast"><phrase id="fldcaption" value="users name Last"/>
+</field>
+<field id="users_namefirst"><phrase id="fldcaption" value="users name First"/>
+</field>
+<field id="users_namemiddle"><phrase id="fldcaption" value="users name Middle"/>
+</field>
+<field id="users_userloginname"><phrase id="fldcaption" value="users user Login Name"/>
+</field>
+<field id="users_password"><phrase id="fldcaption" value="users password"/>
+</field>
+<field id="users_userlevel"><phrase id="fldcaption" value="users user Level"/>
+</field>
+<field id="users_email"><phrase id="fldcaption" value="users email"/>
+</field>
+<field id="users_contactno"><phrase id="fldcaption" value="users contact No"/>
+</field>
+</table>
+<table id="frm_u_pbb_detail_accomplishment"><phrase id="tblcaption" value="PBB Accomplishment"/>
+<phrase id="tblpagecaption1" value="Accomplishment"/>
+<phrase id="tblpagecaption2" value="Target"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="Applicable"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="frm_u_pbb_detail_target"><phrase id="tblcaption" value="PBB Target"/>
+<phrase id="tblpagecaption1" value="Target"/>
+<phrase id="tblpagecaption2" value="Accomplishment"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="Applicable"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Certified by PM FP: Supporting Docs Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="frm_u_rep_a_eligible_status_unit_mfo"><phrase id="tblcaption" value="Accomplishment Eligible Status"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="Budget"/>
+</field>
+<field id="participated_pi"><phrase id="fldcaption" value="Participated PI Count"/>
+</field>
+<field id="not_started_pi"><phrase id="fldcaption" value="Not Started PI Count"/>
+</field>
+<field id="z25_not_started_pi"><phrase id="fldcaption" value="% Not Started PI"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="not_eligible_pi_count"><phrase id="fldcaption" value="Not Eligible PI Count"/>
+</field>
+<field id="z25_not_eligible_pi_count"><phrase id="fldcaption" value="% Not Eligible PI"/>
+</field>
+<field id="eligible_pi_count"><phrase id="fldcaption" value="Eligible PI Count"/>
+</field>
+<field id="z25_eligible_pi_count"><phrase id="fldcaption" value="% Eligible PI"/>
+</field>
+<field id="remarks"><phrase id="fldcaption" value="Remarks"/>
+</field>
+</table>
+<table id="frm_u_rep_t_completion_status_unit_mfo"><phrase id="tblcaption" value="Target Completion Status"/>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="Budget"/>
+</field>
+<field id="no2e_of_pis_28a29"><phrase id="fldcaption" value="No. of PIs (A)"/>
+</field>
+<field id="applicable_pis_28b29"><phrase id="fldcaption" value="Applicable PIs (B)"/>
+</field>
+<field id="not_applicable_pis_28c29"><phrase id="fldcaption" value="Not Applicable PIs (C)"/>
+</field>
+<field id="pi_with_target_28d29"><phrase id="fldcaption" value="PIs with Target (D)"/>
+</field>
+<field id="remarks_28a_3d_c29"><phrase id="fldcaption" value="Remarks (A = C)"/>
+</field>
+<field id="remarks_28b_3e_d29"><phrase id="fldcaption" value="Remarks (B &gt; D)"/>
+</field>
+<field id="remarks_28d_3d_029"><phrase id="fldcaption" value="Remarks (D = 0)"/>
+</field>
+</table>
+<table id="frm_u_rep_ta_form_a_1"><phrase id="tblcaption" value="Form A 1 (Raw Format)"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="constituent_university"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="delivery_unit"><phrase id="fldcaption" value="Delivery Unit"/>
+</field>
+<field id="pi_1"><phrase id="fldcaption" value="PI 1"/>
+</field>
+<field id="pi_question_28129"><phrase id="fldcaption" value="PI Question (1)"/>
+</field>
+<field id="target_28129"><phrase id="fldcaption" value="Target (1)"/>
+</field>
+<field id="target_n_28129"><phrase id="fldcaption" value="Target N (1)"/>
+</field>
+<field id="target_d_28129"><phrase id="fldcaption" value="Target D (1)"/>
+</field>
+<field id="remarks_28129"><phrase id="fldcaption" value="Remarks (1)"/>
+</field>
+<field id="pi_2"><phrase id="fldcaption" value="PI 2"/>
+</field>
+<field id="pi_question_28229"><phrase id="fldcaption" value="PI Question (2)"/>
+</field>
+<field id="target_28229"><phrase id="fldcaption" value="Target (2)"/>
+</field>
+<field id="target_n_28229"><phrase id="fldcaption" value="Target N (2)"/>
+</field>
+<field id="target_d_28229"><phrase id="fldcaption" value="Target D (2)"/>
+</field>
+<field id="remarks_28229"><phrase id="fldcaption" value="Remarks (2)"/>
+</field>
+<field id="pi_3"><phrase id="fldcaption" value="PI 3"/>
+</field>
+<field id="pi_question_28329"><phrase id="fldcaption" value="PI Question (3)"/>
+</field>
+<field id="target_28329"><phrase id="fldcaption" value="Target (3)"/>
+</field>
+<field id="target_n_28329"><phrase id="fldcaption" value="Target N (3)"/>
+</field>
+<field id="target_d_28329"><phrase id="fldcaption" value="Target D (3)"/>
+</field>
+<field id="remarks_28329"><phrase id="fldcaption" value="Remarks (3)"/>
+</field>
+<field id="pi_4"><phrase id="fldcaption" value="PI 4"/>
+</field>
+<field id="pi_question_28429"><phrase id="fldcaption" value="PI Question (4)"/>
+</field>
+<field id="target_28429"><phrase id="fldcaption" value="Target (4)"/>
+</field>
+<field id="target_n_28429"><phrase id="fldcaption" value="Target N (4)"/>
+</field>
+<field id="target_d_28429"><phrase id="fldcaption" value="Target D (4)"/>
+</field>
+<field id="remarks_28429"><phrase id="fldcaption" value="Remarks (4)"/>
+</field>
+<field id="pi_5"><phrase id="fldcaption" value="PI 5"/>
+</field>
+<field id="pi_question_28529"><phrase id="fldcaption" value="PI Question (5)"/>
+</field>
+<field id="target_28529"><phrase id="fldcaption" value="Target (5)"/>
+</field>
+<field id="target_n_28529"><phrase id="fldcaption" value="Target N (5)"/>
+</field>
+<field id="target_d_28529"><phrase id="fldcaption" value="Target D (5)"/>
+</field>
+<field id="remarks_28529"><phrase id="fldcaption" value="Remarks (5)"/>
+</field>
+<field id="pi_6"><phrase id="fldcaption" value="PI 6"/>
+</field>
+<field id="pi_question_28629"><phrase id="fldcaption" value="PI Question (6)"/>
+</field>
+<field id="target_28629"><phrase id="fldcaption" value="Target (6)"/>
+</field>
+<field id="target_n_28629"><phrase id="fldcaption" value="Target N (6)"/>
+</field>
+<field id="target_d_28629"><phrase id="fldcaption" value="Target D (6)"/>
+</field>
+<field id="remarks_28629"><phrase id="fldcaption" value="Remarks (6)"/>
+</field>
+<field id="pi_7"><phrase id="fldcaption" value="PI 7"/>
+</field>
+<field id="pi_question_28729"><phrase id="fldcaption" value="PI Question (7)"/>
+</field>
+<field id="target_28729"><phrase id="fldcaption" value="Target (7)"/>
+</field>
+<field id="target_n_28729"><phrase id="fldcaption" value="Target N (7)"/>
+</field>
+<field id="target_d_28729"><phrase id="fldcaption" value="Target D (7)"/>
+</field>
+<field id="remarks_28729"><phrase id="fldcaption" value="Remarks (7)"/>
+</field>
+<field id="pi_8"><phrase id="fldcaption" value="PI 8"/>
+</field>
+<field id="pi_question_28829"><phrase id="fldcaption" value="PI Question (8)"/>
+</field>
+<field id="target_28829"><phrase id="fldcaption" value="Target (8)"/>
+</field>
+<field id="target_n_28829"><phrase id="fldcaption" value="Target N (8)"/>
+</field>
+<field id="target_d_28829"><phrase id="fldcaption" value="Target D (8)"/>
+</field>
+<field id="remarks_28829"><phrase id="fldcaption" value="Remarks (8)"/>
+</field>
+<field id="pi_9"><phrase id="fldcaption" value="PI 9"/>
+</field>
+<field id="pi_question_28929"><phrase id="fldcaption" value="PI Question (9)"/>
+</field>
+<field id="target_28929"><phrase id="fldcaption" value="Target (9)"/>
+</field>
+<field id="target_n_28929"><phrase id="fldcaption" value="Target N (9)"/>
+</field>
+<field id="target_d_28929"><phrase id="fldcaption" value="Target D (9)"/>
+</field>
+<field id="remarks_28929"><phrase id="fldcaption" value="Remarks (9)"/>
+</field>
+<field id="pi_10"><phrase id="fldcaption" value="PI 10"/>
+</field>
+<field id="pi_question_281029"><phrase id="fldcaption" value="PI Question (10)"/>
+</field>
+<field id="target_281029"><phrase id="fldcaption" value="Target (10)"/>
+</field>
+<field id="target_n_281029"><phrase id="fldcaption" value="Target N (10)"/>
+</field>
+<field id="target_d_281029"><phrase id="fldcaption" value="Target D (10)"/>
+</field>
+<field id="remarks_281029"><phrase id="fldcaption" value="Remarks (10)"/>
+</field>
+<field id="pi_11"><phrase id="fldcaption" value="PI 11"/>
+</field>
+<field id="pi_question_281129"><phrase id="fldcaption" value="PI Question (11)"/>
+</field>
+<field id="target_281129"><phrase id="fldcaption" value="Target (11)"/>
+</field>
+<field id="target_n_281129"><phrase id="fldcaption" value="Target N (11)"/>
+</field>
+<field id="target_d_281129"><phrase id="fldcaption" value="Target D (11)"/>
+</field>
+<field id="remarks_281129"><phrase id="fldcaption" value="Remarks (11)"/>
+</field>
+<field id="pi_12"><phrase id="fldcaption" value="PI 12"/>
+</field>
+<field id="pi_question_281229"><phrase id="fldcaption" value="PI Question (12)"/>
+</field>
+<field id="target_281229"><phrase id="fldcaption" value="Target (12)"/>
+</field>
+<field id="target_n_281229"><phrase id="fldcaption" value="Target N (12)"/>
+</field>
+<field id="target_d_281229"><phrase id="fldcaption" value="Target D (12)"/>
+</field>
+<field id="remarks_281229"><phrase id="fldcaption" value="Remarks (12)"/>
+</field>
+</table>
+<table id="frm_u_rep_ta_form_a_1_iatf"><phrase id="tblcaption" value="Form A 1 (IATF Format)"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="constituent_university"><phrase id="fldcaption" value="Constituent University"/>
+</field>
+<field id="form_a_1_mfo"><phrase id="fldcaption" value="form a 1 mfo"/>
+</field>
+<field id="performance_indicator_1_28229"><phrase id="fldcaption" value="Performance Indicator 1 (2)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_1_28329"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 1 (3)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_1_28429"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 1 (4)"/>
+</field>
+<field id="performance_indicator_2_28529"><phrase id="fldcaption" value="Performance Indicator 2 (5)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_2_28629"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 2 (6)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_2_28729"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 2 (7)"/>
+</field>
+<field id="performance_indicator_3_28829"><phrase id="fldcaption" value="Performance Indicator 3 (8)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_3_28929"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 3 (9)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281029"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 3 (10)"/>
+</field>
+<field id="performance_indicator_4_281129"><phrase id="fldcaption" value="Performance Indicator 4 (11)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_4_281229"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 4 (12)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281329"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 4 (13)"/>
+</field>
+<field id="performance_indicator_5_281429"><phrase id="fldcaption" value="Performance Indicator 5 (14)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_5_281529"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 5 (15)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281629"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 5 (16)"/>
+</field>
+<field id="performance_indicator_6_281729"><phrase id="fldcaption" value="Performance Indicator 6 (17)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_6_281829"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 6 (18)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_281929"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 6 (19)"/>
+</field>
+<field id="performance_indicator_7_282029"><phrase id="fldcaption" value="Performance Indicator 7 (20)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_7_282129"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 7 (21)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282229"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 7 (22)"/>
+</field>
+<field id="performance_indicator_8_282329"><phrase id="fldcaption" value="Performance Indicator 8 (23)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_8_282429"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 8 (24)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282529"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 8 (25)"/>
+</field>
+<field id="performance_indicator_9_282629"><phrase id="fldcaption" value="Performance Indicator 9 (26)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_9_282729"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 9 (27)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_282829"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 9 (28)"/>
+</field>
+<field id="performance_indicator_10_282929"><phrase id="fldcaption" value="Performance Indicator 10 (29)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_10_283029"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 10 (30)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283129"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 10 (31)"/>
+</field>
+<field id="performance_indicator_11_283229"><phrase id="fldcaption" value="Performance Indicator 11 (32)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_11_283329"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 11 (33)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283429"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 11 (34)"/>
+</field>
+<field id="performance_indicator_12_283529"><phrase id="fldcaption" value="Performance Indicator 12 (35)"/>
+</field>
+<field id="fy_2015_target_for_performance_indicator_12_283629"><phrase id="fldcaption" value="FY 2015 TARGET for Performance Indicator 12 (36)"/>
+</field>
+<field id="fy_2015_accomplishment_for_performance_indicator_3_283729"><phrase id="fldcaption" value="FY 2015 ACCOMPLISHMENT for Performance Indicator 12 (37)"/>
+</field>
+<field id="responsible_bureaus_28129"><phrase id="fldcaption" value="Responsible Bureaus (1)"/>
+</field>
+<field id="mfos"><phrase id="fldcaption" value="MFOs"/>
+</field>
+</table>
+<table id="tbl_collection_period"><phrase id="tblcaption" value="tbl collection period"/>
+<field id="collection_id"><phrase id="fldcaption" value="collection id"/>
+</field>
+<field id="collection_year"><phrase id="fldcaption" value="collection year"/>
+</field>
+<field id="collection_description"><phrase id="fldcaption" value="collection description"/>
+</field>
+<field id="collection_date"><phrase id="fldcaption" value="collection date"/>
+</field>
+</table>
+<table id="tbl_cu_executive_offices"><phrase id="tblcaption" value="tbl cu executive offices"/>
+<field id="cu_id"><phrase id="fldcaption" value="cu id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="focal person office"/>
+</field>
+</table>
+<table id="tbl_cutoffdate"><phrase id="tblcaption" value="Cut-Off Date"/>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="collection_id"><phrase id="fldcaption" value="collection id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="Focal Person Office"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="Focal Person Office"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="Target Cut-Off Date FP"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date Remarks"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="Accomplishment Cut-Off Date FP"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date Remarks"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="tbl_mfo_questions"><phrase id="tblcaption" value="MFO Questions"/>
+<field id="mfo_id"><phrase id="fldcaption" value="mfo id"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="gaa_value"><phrase id="fldcaption" value="GAA"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="PI No"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="PI Sub"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="MFO Name Form A"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO Name"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="pi_type"><phrase id="fldcaption" value="Type"/>
+</field>
+<field id="expectations"><phrase id="fldcaption" value="expectations"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+</table>
+<table id="tbl_mfo_questions_cu"><phrase id="tblcaption" value="tbl mfo questions cu"/>
+<field id="target_quota_id"><phrase id="fldcaption" value="target quota id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="focal_person_office"><phrase id="fldcaption" value="focal person office"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="mfo id"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="mfo name"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="pi question"/>
+</field>
+<field id="target_quota"><phrase id="fldcaption" value="target quota"/>
+</field>
+</table>
+<table id="tbl_pbb_detail"><phrase id="tblcaption" value="PBB Detail"/>
+<field id="pbb_id"><phrase id="fldcaption" value="pbb id"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Unit Name"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="mfo_sequence"><phrase id="fldcaption" value="mfo sequence"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="pi_no"><phrase id="fldcaption" value="pi no"/>
+</field>
+<field id="pi_sub"><phrase id="fldcaption" value="pi sub"/>
+</field>
+<field id="mfo_name"><phrase id="fldcaption" value="MFO"/>
+</field>
+<field id="pi_question"><phrase id="fldcaption" value="Question"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="Target"/>
+</field>
+<field id="t_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="t_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_denominator"><phrase id="fldcaption" value="Denominator"/>
+</field>
+<field id="t_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="t_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="t_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="t_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="t_remarks"><phrase id="fldcaption" value="Target Remarks"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Target Cut-Off Date"/>
+</field>
+<field id="accomplishment"><phrase id="fldcaption" value="Accomplishment"/>
+</field>
+<field id="a_numerator"><phrase id="fldcaption" value="Numerator"/>
+</field>
+<field id="a_numerator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_numerator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_numerator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_numerator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_denominator"><phrase id="fldcaption" value="Denominator (for qtr distribution only)"/>
+</field>
+<field id="a_denominator_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_denominator_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_denominator_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_denominator_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_supporting_docs"><phrase id="fldcaption" value="Supporting Documents Count"/>
+</field>
+<field id="a_supporting_docs_qtr1"><phrase id="fldcaption" value="&gt;     Qtr 1"/>
+</field>
+<field id="a_supporting_docs_qtr2"><phrase id="fldcaption" value="&gt;     Qtr 2"/>
+</field>
+<field id="a_supporting_docs_qtr3"><phrase id="fldcaption" value="&gt;     Qtr 3"/>
+</field>
+<field id="a_supporting_docs_qtr4"><phrase id="fldcaption" value="&gt;     Qtr 4"/>
+</field>
+<field id="a_remarks"><phrase id="fldcaption" value="Accomplishment Remarks"/>
+</field>
+<field id="a_rating"><phrase id="fldcaption" value="a rating"/>
+</field>
+<field id="a_rating_above_90"><phrase id="fldcaption" value="Above 90% Rating"/>
+</field>
+<field id="a_rating_below_90"><phrase id="fldcaption" value="Below 90% Rating"/>
+</field>
+<field id="a_supporting_docs_comparison"><phrase id="fldcaption" value="Supporting Documents Comparison"/>
+</field>
+<field id="a_cutoffdate"><phrase id="fldcaption" value="a cut Off Date"/>
+</field>
+<field id="a_cutoffdate_remarks"><phrase id="fldcaption" value="Accomplishment Cut-Off Date"/>
+</field>
+<field id="mfo_id"><phrase id="fldcaption" value="mfo id"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="a_cutoffdate_fp"><phrase id="fldcaption" value="a cut Off Date fp"/>
+</field>
+<field id="applicable"><phrase id="fldcaption" value="applicable"/>
+</field>
+<field id="form_a_1_sequence"><phrase id="fldcaption" value="form a 1 sequence"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="a_startdate"><phrase id="fldcaption" value="a start Date"/>
+</field>
+</table>
+<table id="tbl_pbb_detail_budget"><phrase id="tblcaption" value="tbl pbb detail budget"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="cu short name"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="mfo"><phrase id="fldcaption" value="mfo"/>
+</field>
+<field id="mfo_name_rep"><phrase id="fldcaption" value="mfo name rep"/>
+</field>
+<field id="budget"><phrase id="fldcaption" value="budget"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+<field id="t_cutoffdate"><phrase id="fldcaption" value="t cut Off Date"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="t cut Off Date remarks"/>
+</field>
+</table>
+<table id="tbl_units"><phrase id="tblcaption" value="Units"/>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="unit_id"><phrase id="fldcaption" value="unit id"/>
+</field>
+<field id="cu_sequence"><phrase id="fldcaption" value="cu sequence"/>
+</field>
+<field id="cu_short_name"><phrase id="fldcaption" value="CU"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="Unit Name"/>
+</field>
+<field id="unit_name"><phrase id="fldcaption" value="Unit Name"/>
+</field>
+<field id="unit_name_short"><phrase id="fldcaption" value="unit name short"/>
+</field>
+<field id="focal_person_id"><phrase id="fldcaption" value="focal person id"/>
+</field>
+<field id="personnel_count"><phrase id="fldcaption" value="Personnel Count"/>
+</field>
+<field id="mfo_1"><phrase id="fldcaption" value="MFO 1"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_2"><phrase id="fldcaption" value="MFO 2"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_3"><phrase id="fldcaption" value="MFO 3"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_4"><phrase id="fldcaption" value="MFO 4"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="mfo_5"><phrase id="fldcaption" value="MFO 5"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="sto"><phrase id="fldcaption" value="STO"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="gass"><phrase id="fldcaption" value="GASS"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="t_cutoffdate_remarks"><phrase id="fldcaption" value="Cut-Off Date"/>
+</field>
+<field id="cu_id"><phrase id="fldcaption" value="cu id"/>
+</field>
+<field id="cutoffdate_id"><phrase id="fldcaption" value="cut Off Date id"/>
+</field>
+<field id="t_cutoffdate_fp"><phrase id="fldcaption" value="t cut Off Date fp"/>
+</field>
+<field id="t_startdate"><phrase id="fldcaption" value="t start Date"/>
+</field>
+</table>
+<table id="tbl_users"><phrase id="tblcaption" value="tbl users"/>
+<field id="users_id"><phrase id="fldcaption" value="users ID"/>
+</field>
+<field id="cu"><phrase id="fldcaption" value="cu"/>
+</field>
+<field id="units_id"><phrase id="fldcaption" value="units id"/>
+</field>
+<field id="cu_unit_name"><phrase id="fldcaption" value="cu unit name"/>
+</field>
+<field id="users_name"><phrase id="fldcaption" value="users name"/>
+</field>
+<field id="users_namelast"><phrase id="fldcaption" value="users name Last"/>
+</field>
+<field id="users_namefirst"><phrase id="fldcaption" value="users name First"/>
+</field>
+<field id="users_namemiddle"><phrase id="fldcaption" value="users name Middle"/>
+</field>
+<field id="users_userloginname"><phrase id="fldcaption" value="users user Login Name"/>
+</field>
+<field id="users_password"><phrase id="fldcaption" value="users password"/>
+</field>
+<field id="users_userlevel"><phrase id="fldcaption" value="users user Level"/>
+</field>
+<field id="users_email"><phrase id="fldcaption" value="users email"/>
+</field>
+<field id="users_contactno"><phrase id="fldcaption" value="users contact No"/>
+</field>
+</table>
+</project>
+</up-language>

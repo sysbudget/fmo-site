@@ -1,0 +1,138 @@
+Log changes to PBB Accomplishments folder:
+
+2016-05-18 by Tracy
+	1. replaced file login_mysqli.php
+            - renamed old login_mysqli.php to "login_mysqli-old.php"
+            - informed Zab
+
+2016-05-20 by Tracy
+	1. replaced file login_mysqli.php
+	    - fix needed on bug reported by Zab: script error on non-existent user
+	2. replaced file mfo.php
+	    - changed a menu label from "Accreditation" to "Program Accreditation"
+
+2016-05-27 by All
+	1. Menu choices should display only the service class
+	2. Display header should include the service class and description
+	3. For date fields. Insert text description "Click the top left or right corner of the
+		calendar to navigate or press esc key to hide calendar.  " 
+	4. For sectioning forms place description and <hr> on the label side only
+	5. Use Add New Record for all view menus. Use "Delete this record and any related records. Are you sure? " for alert.
+	   Use "No record to display!" 
+	6  Date format for error message is start date then end date.
+	7. Use "Attachment" as the label and display the description under the textarea.
+	8. Set View Per Page no. of records to 25.
+	9. For View Records (All/Per Page) pages, numbers and dates should be right-aligned, text should be left-aligned, no wrap.
+	10. No asterisks in labels of required fields (for tracy only).
+	11. Don't set your own standard (for tracy only).
+
+2016-05-30 by Zab
+	1. Added a consolidated databse Anne, Tracy, Zab - filename PBB_2016_Conso_5-30-16_Zab.sql
+	2. Menu Change HOME ACCOMPLISHMENT CONTACT - menu.html
+	3. STO and GASS was incorporated with MFO Menus - mfo.php
+	4. "Add new record", "No record to display!" href text was implemented on all views for MFO3 and MFO4
+
+2016-06-01
+	1. Removed option to create new user while in admin user - index.php
+
+2016-06-07
+	1. Added template for TABS in GASS folder - tab_sample.php
+	2. Changed MFO.php to conform with the required dynamic menu
+	3. Template for disabling and enabling form elements found in MFO 4 folder - training_input.php
+	4. Updated consolidated SQL with PBB_2016_Conso_6-3-16_Zab v4.sql
+	5. Added users upd, upb, upmin, pgh, admin as users samples
+	6. Created folder SQL to store consolidated SQL dumps
+	7. Updated jquery-ui.css to add new fonts located in folder includes
+	8. Changed menu.html to reformat the Main menu
+
+2016-06-10
+	1. Create an alert box if there are no records to select in MFO1 and MFO3 
+	   Go to (MFO1) (Undergraduate Degree Program) to add required record
+	2. "Specify filename of (attachment description)"
+	3. Attachment format: mfo1-form_id-attachment_shortname-cu-du-conu-1ofn (ex. mfo1-forma-oct_to_dec_grads-upb-cs-bio-1of3)
+	   use as bottom note: Use the prescribed filename above to email the (Oct to Dec List of Graduates).
+	4. Created PBB_2016_Conso_6-10-16_Zab v5.sql as latest dump
+	5. Remove the code in view_all.php found in line 44 and 46
+		<div class="viewlinks">
+		<p><a href="sto_forma_input.php">Add New Record</a> | <b>View All</b> | <a href="sto_forma_view_per_page.php">View Page</a> </p>
+                </div>
+	   
+	   and add this code under the comment display records in a table
+		echo "<div class='viewlinks'>";
+		echo "<p><a href='research_input.php'>Add New Record</a> | ";
+change this-->	echo "<a href='research_view_all.php'>View All</a> | <b>View Page:</b> ";
+to this	   -->	echo "<b>View All</b> | <a href='research_view_per_page.php'>View Page:</a> ";
+		echo "</div>";
+
+	   this will correct the error of displaying no entry to display twice
+	6. Replaced the code in view_use_per_page.php and view_use_all.php in the else section
+		echo "<a href='research_input.php'>Add New Record</a>";
+		echo " | No record to select!";
+
+	   with
+		echo "No record to select!";
+		echo '<script language="javascript">';
+		echo 'alert("Go to RESEARCH PROJECT to add required record")';
+		echo '</script>';
+
+	   to display an alert message instructing user to create a required record to continue
+	7. Use "Attachment" as the header for view_all.php and view_per_page.php but if there
+	   are multiple attachments include a number e.g. "Attachment 1"
+
+2016-06-24
+	1.  Attachment message 
+		change the label from attachment to prescribed attachment filename
+		rename the file you are going to upload using the prescribed filename above
+	2. label File to upload (...)
+	3. instructions below <i>"select the file from your computer"<i/>
+	4. Is this research included in the Budget Proposal Form B for the year?
+	5. Action to take: Upload the first page of the pdf file, then send the full pdf via e-mail sysbudget@up.edu.ph
+	   indicate the prescribed filename in the subject line.
+	6. scanned source page from PRC Licensure Examination Performance of Schools
+	7. Accreditation Level: note below "the level as it appears in the Certificate"
+		- add "Candidate Status" to options
+	8. accrediting body: one item only AACCUP initially
+	9. accrediting body, note below: write a request letter to VPPF JGF to officially include other accrediting body and attach levelling scheme.
+	10. Date of survey: Minimum required is month and year--set the day to 01, i.e. 06/01/2016.
+	11. graduation date must fall at least six months before or within the current year.
+
+	IMPORTANT For ALL: REVIEW THE FINAL 2016 FORMS OF CHED AND APPLY THE NECESSARY CHANGES TO THE ONLINE FORMS.
+	
+2016-06-27 - zab
+	Things to do to change attachment
+	1. Run SQL to add new fields for SD user - PBB_2016_Conso_6-27-16_Zab v7.php
+	2. Create folder to store uploads. e.g. c:\wamp\www\PBB_Accomplishments\STO\uploads\UPD
+	3. Replace login_mysqli.php - this will add the following
+	    	$_SESSION['unit_delivery_name_short'] 	= $user->unit_delivery_name_short;
+	    	$_SESSION['unit_contributor_name_short']	= $user->unit_contributor_name_short;
+	4. Add the code below under the comment "get session values"
+	    	$unit_delivery_name_short = $_SESSION['unit_delivery_name_short'];
+	    	$unit_contributor_name_short = $_SESSION['unit_contributor_name_short'];
+	5. Add the code below in your form initailization
+		enctype="multipart/form-data"
+	6. Use the templates research_input.php, research_edit.php, research_insert.php, research_save_edit.php, research_view_all.php, research_view_per_page.php
+
+2016-06-28 - zab
+	Increase wampserver upload_max_filesize to 5M
+	1. open wampserver 
+	2. goto PHP then open php.ini
+	3. search for upload_max_filesize
+	4. change the size to 5M
+	5. save
+	6. restart wampserver
+	
+2016-7-1 - zab
+	1.  Add the following in your query login_mysqli.php
+			unit_delivery_name_short,
+			unit_contributor_name_short,
+
+2016-7-1 - zab
+	1.  Use the following for the instuctions below the attachment textarea
+		Use the above prescribed filename to rename and upload the PDF copy of ______________________.
+
+2016-7-11
+	Change in mfo5 and gass menu
+	1. copy mfo.php to update and add new options with mfo5 and gass
+	2. run PBB_2016_Conso_7-11-16_Zab v9.sql to consolidate and add new changes in  tbl_units_contributor 
+		
+- nothing follows -

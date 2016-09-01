@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0;}
+div.header {
+		backgound-image: url(images/header.jpg);
+		width:1000px; height:120px;
+}
+div.footer { text-align:center; font-size:11px;
+			color:#333333; text-align:center; font-family:calibri;
+			background-color:#F3AA2C; width:990px; padding:5px;
+}
+div.menu {
+		font-family:calibri; background-color:#7B1113; text-align:left;
+		color:#FFFFFF; width:990px; padding:5px;
+}
+div.menu a {color:#FFFFFF; text-decoration:none;}
+div.menu a:hover {color:#F3AA2C; text-decoration:underline;}
+div.commonbody {
+		font-family:Calibri; color:#FFFFFF;
+		background-color:#014421; text-align:left; width:990px; padding:5px;
+}
+div.commonbody td#leftpanemenu a{color:#FFFFFF; text-decoration:none}
+div.commonbody td#leftpanemenu a:hover{color:#F3AA2C; text-decoration:underline; }
+
+div.aboutbody {
+		font-family:Calibri; color:#000000; font-size:18px;
+		background-color:#FFFFFF; text-align:left; width:990px; padding:5px;
+		height:470px;
+}
+div.contactbody {
+		font-family:Calibri; color:#000000; font-size:18px;
+		background-color:#FFFFFF; text-align:left; width:990px; padding:5px;
+		height:470px; 
+}
+div.viewlinks a {color:#000000; text-decoration:underline; }
+div.viewlinks a:hover {color:#F3AA2C; text-decoration:underline;}
+div.viewbody {font-family:calibri; font-size:13px; padding-left:5px;}
+
+<!-- this all came from the the individual styles of header, menu and footer
+<!--body {margin:0; text-align:center;} <!-- header.html -->
+<!--body {font-family:Calibri;margin:0;} <!-- menu.html -->
+<!--body {font-family:Calibri;margin:0; font-size:11px; color:#333333; text-align:center;} <!-- footer.html --> 
